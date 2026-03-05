@@ -1,0 +1,311 @@
+FINAL MASTER PROMPT (UPDATED)
+
+Build a premium, modern, luxury multi-page website for a hospitality consulting company called:
+
+Visitor Care Consultancy
+
+The website must look international, high-end, glassy, modern, and beautifully designed, not like an outdated business website.
+
+Use modern UI/UX similar to premium international consulting and hospitality websites.
+
+DESIGN STYLE (VERY IMPORTANT)
+
+The entire website must follow a modern glassmorphism design system.
+
+Design requirements:
+
+• Frosted glass cards
+• Backdrop blur effects
+• Soft gradient backgrounds
+• Premium typography
+• Elegant spacing
+• Subtle animations
+• Smooth hover effects
+• Rounded glass containers
+• Modern sticky navigation bar
+
+Color palette suggestion:
+
+• Deep navy / charcoal background
+• Gold / warm accent highlights
+• White typography
+
+The website must look:
+
+Luxury
+International
+Modern
+Clean
+Beautiful
+Professional
+
+HERO SECTION (AI GENERATED)
+
+Create a large premium hero section on the homepage.
+
+Generate a high quality AI background image related to:
+
+Luxury hospitality
+Restaurant consulting
+Hotel operations
+Food & beverage business
+
+Hero section must include:
+
+Large headline
+Short professional tagline
+Call to action button
+
+Example:
+
+"Transforming Hospitality Businesses"
+
+Buttons:
+
+Get Consultancy
+Explore Services
+
+Use a dark overlay to improve readability.
+
+CLICKABLE COVER SECTIONS
+
+Below the hero create large clickable service cover cards.
+
+Each card must include:
+
+AI generated background image
+Glass overlay
+Title text
+Hover animation
+
+Sections:
+
+Hotel Consultancy
+Restaurant Consultancy
+Manpower Supply
+Food Gallery
+
+Clicking each card must open its dedicated page.
+
+PDF DATA EXTRACTION
+
+I will upload one PDF containing unorganized company information.
+
+The system must:
+
+Read the entire PDF
+
+Extract relevant information
+
+Organize the content automatically into website sections
+
+Extract:
+
+Company description
+Services
+Operational processes
+Projects completed
+Contact details
+
+If some information is unclear:
+
+Do NOT fabricate information.
+
+Instead display:
+
+"More information coming soon"
+
+ABOUT US PAGE
+
+Use the PDF information to build a powerful About Us section.
+
+Include highlights such as:
+
+Expertise in Food & Beverage consultancy
+Experience launching hospitality businesses
+End-to-end consulting from concept to operations
+Support for national and international projects
+
+Rewrite the content to make it:
+
+Professional
+Concise
+Engaging
+High-end sounding
+
+WHY CHOOSE US
+
+Create a Why Choose Us section using key highlights.
+
+Examples:
+
+End-to-end hospitality consultancy
+Menu planning expertise
+Kitchen layout design
+Operational SOP development
+Vendor management standardization
+Food costing systems
+Inventory management
+Restaurant launch strategy
+
+Display these as premium glass cards with icons.
+
+SERVICES PAGES
+
+Create separate service pages.
+
+Hotel Consultancy
+
+Include:
+
+Room amenities planning
+Room costing
+Room tariff budgeting
+Mini bar setup
+Hotel software management
+
+Restaurant Consultancy
+
+Include:
+
+Menu planning
+Kitchen equipment procurement
+Food costing systems
+Menu trials and presentation
+Kitchen operations SOP
+
+Hospitality Operations
+
+Include:
+
+Food receiving system
+Food storage systems
+Inventory control
+Kitchen workflow optimization
+
+PROJECTS COMPLETED
+
+Create a Projects Portfolio section using the project data.
+
+Example projects:
+
+Venky Residency (3 Star Hotel) – Kakinada – 2011
+Master Chefs Restaurant – West Bengal – 2014
+Belini Multi Cuisine Restobar – Guwahati – 2016
+The Bhoj Company Restaurant – Kolkata – 2017
+Dharuchini Restaurant & Banquet – West Bengal – 2018
+Kaftaan Cloud Kitchen – Garia – 2019
+Hotel Daltin (3 Star) – New Digha – 2021
+My Chef Cloud Kitchen – Mumbai – 2022
+Narkelkunja Island Resort – Tripura – 2022
+Bangla Canvas Restaurant – Delhi / Noida – 2023
+Raj Darbar Restaurant – West Bengal – 2024
+
+Display these in a modern timeline or portfolio layout.
+
+ZIP IMAGE HANDLING
+
+I will upload ZIP files containing many images.
+
+The system must:
+
+Extract the ZIP automatically
+
+Analyze all images
+
+Categorize them correctly
+
+Possible categories include:
+
+Food
+Desserts
+Beverages
+Hotel interiors
+Hotel rooms
+Staff / manpower
+
+The website must use ALL images provided in the ZIP files.
+
+Images must not be ignored or randomly removed.
+
+FOOD GALLERY
+
+The Food Gallery must only contain food related images.
+
+Rules:
+
+Only show food images here.
+Do not include hotel or room images in this section.
+
+Display the images in a modern responsive gallery layout.
+
+HOTEL SHOWCASE
+
+Hotel related images must appear only in:
+
+Hotel Consultancy page
+Hotel showcase gallery
+
+Display them as case study style visuals.
+
+MANPOWER PAGE
+
+If staff images are uploaded:
+
+Create a Team Showcase section.
+
+Display them in modern glass styled profile cards.
+
+BEVERAGE MENU (AI GENERATED)
+
+Create a stylish beverages menu section.
+
+Include items like:
+
+Masala Chai
+Mango Lassi
+Filter Coffee
+Rose Milk
+Jaljeera
+Sugarcane Juice
+Badam Milk
+
+Display as elegant menu cards.
+
+CONTACT PAGE
+
+Extract from the PDF:
+
+Phone numbers
+Email addresses
+Physical address
+WhatsApp if mentioned
+
+Include:
+
+Contact form
+WhatsApp contact button
+Map placeholder
+
+IMAGE HANDLING
+
+Ensure:
+
+No broken images
+Correct file paths
+Responsive scaling
+Lazy loading
+High quality rendering
+
+FINAL RESULT
+
+The final website must feel:
+
+Luxury
+International
+Professional
+Modern
+Beautiful
+High-end
+
+The website must feel like a premium hospitality consulting brand, not a basic template.
