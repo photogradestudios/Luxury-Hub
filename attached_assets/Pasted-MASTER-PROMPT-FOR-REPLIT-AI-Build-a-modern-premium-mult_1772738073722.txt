@@ -1,0 +1,291 @@
+MASTER PROMPT FOR REPLIT AI
+
+Build a modern, premium multi-page website for a hospitality consulting company called:
+
+Visitor Care Consultancy
+
+The website must look international, modern, and high-end, similar to premium hospitality or consulting firms.
+
+The design must NOT look like an outdated business template.
+
+Use a luxury modern theme with:
+
+• glassmorphism UI
+• soft gradients
+• smooth animations
+• modern typography
+• elegant spacing
+• clean navigation
+• premium feel
+
+The site must feel minimal, luxury, and polished.
+
+IMPORTANT STRUCTURE REQUIREMENT
+
+This must be a true multi-page website, not a single scrolling page.
+
+Create separate pages with navigation routing.
+
+Pages required:
+
+Home
+About Us
+Food Gallery
+Hotel Consultancy
+Manpower Supply
+Services
+Projects
+Contact
+
+Each page must open separately from the navbar.
+
+HOMEPAGE
+
+Homepage must contain:
+
+Hero section
+Service navigation cards
+Company introduction
+Featured highlights
+CTA buttons
+
+HERO SECTION
+
+Create a large AI generated hero background image showing:
+
+luxury hospitality
+restaurants
+hotel operations
+consulting environment
+
+Add overlay text:
+
+"Transforming Hospitality Businesses"
+
+Buttons:
+
+Explore Services
+Contact Us
+
+Use dark overlay + glass card text container.
+
+CLICKABLE SERVICE CARDS
+
+Below hero add large clickable cards that open pages.
+
+Cards:
+
+Food & Beverage
+Hotel Consultancy
+Manpower Supply
+Our Projects
+
+Each card should have:
+
+AI generated cover image
+glass overlay
+hover animation
+click to open page
+
+IMAGE ZIP HANDLING
+
+I will upload ZIP files containing many images.
+
+The system must:
+
+Automatically extract the ZIP
+
+Analyze the images
+
+Categorize them correctly
+
+Images will include:
+
+Food images
+Hotel interior images
+Hotel room images
+Staff / manpower images
+
+The system must use ALL images provided.
+
+Do not ignore images.
+
+FOOD GALLERY PAGE
+
+Create a dedicated Food Gallery page.
+
+Use only food images from the uploaded ZIP.
+
+Do NOT include hotel images here.
+
+Display them as:
+
+modern grid gallery
+restaurant style showcase
+hover zoom animation
+
+Also create a Menu Display section below the gallery.
+
+Menu items should be AI generated Indian beverages such as:
+
+Masala Chai
+Mango Lassi
+Filter Coffee
+Rose Milk
+Badam Milk
+Jaljeera
+
+Display these as stylish menu cards.
+
+HOTEL CONSULTANCY PAGE
+
+Create a Hotel Consultancy page.
+
+This page must show:
+
+Hotel services offered
+Operational consulting
+Room setup consulting
+
+Use hotel related images from the hotel ZIP file.
+
+Display them as:
+
+hotel showcase gallery
+case study style grid
+large image cards
+
+MANPOWER SUPPLY PAGE
+
+Create a Manpower Supply page.
+
+I will upload images of staff or team.
+
+Use these images to create a Team Showcase section.
+
+Display them as:
+
+professional staff cards
+glass style frames
+team showcase layout
+
+Add short descriptions about:
+
+hospitality staffing
+hotel staff supply
+restaurant manpower services
+
+ABOUT US PAGE
+
+Create a full About Us page.
+
+Use the company information extracted from the PDF.
+
+Rewrite the content to sound:
+
+professional
+engaging
+high-end
+
+Highlight:
+
+hospitality consulting expertise
+food & beverage consulting
+restaurant launch experience
+hotel operations setup
+
+PROJECTS PAGE
+
+Create a Projects Completed page.
+
+Use project information extracted from the PDF.
+
+Display projects like:
+
+Venky Residency – Andhra Pradesh
+Master Chefs Restaurant – West Bengal
+Belini Resto Bar – Assam
+The Bhoj Company – Kolkata
+Hotel Daltin – New Digha
+My Chef Cloud Kitchen – Mumbai
+Bangla Canvas – Delhi / Noida
+Raj Darbar – West Bengal
+
+Show them in:
+
+timeline layout
+project cards
+case study style
+
+SERVICES PAGE
+
+Create a Services page explaining:
+
+Food & Beverage Consulting
+Restaurant Setup
+Kitchen Planning
+Menu Engineering
+Vendor Management
+Hotel Operations Setup
+Hospitality Staffing
+
+Display them as modern service cards.
+
+CONTACT PAGE
+
+Extract from the PDF:
+
+Phone numbers
+Email addresses
+Address
+
+Add:
+
+Contact form
+WhatsApp contact button
+Google Maps placeholder
+
+DESIGN QUALITY REQUIREMENT
+
+The design must feel like:
+
+modern international consulting website
+luxury hospitality brand
+minimalist UI
+
+Use:
+
+smooth scroll animations
+glass UI cards
+soft gradient backgrounds
+premium typography
+hover animations
+
+Avoid:
+
+old business templates
+basic bootstrap layouts
+cluttered design
+
+IMAGE HANDLING RULES
+
+Ensure:
+
+images load correctly
+no broken paths
+responsive scaling
+lazy loading
+
+Images must appear crisp and high quality.
+
+FINAL RESULT
+
+The website must feel:
+
+Luxury
+Modern
+International
+Beautiful
+Professional
+
+It should look like a premium hospitality consulting brand website.

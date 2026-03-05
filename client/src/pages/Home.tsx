@@ -1,7 +1,7 @@
 import { Link } from "wouter";
 import { motion } from "framer-motion";
 import { ArrowRight, ChefHat, Building2, Users, UtensilsCrossed } from "lucide-react";
-import heroBg from "@/assets/images/hero-bg.png";
+import heroBg from "@/assets/images/hero-luxury.png";
 
 // Service cards for the homepage
 const services = [
@@ -36,46 +36,55 @@ const services = [
 ];
 
 export default function Home() {
+  // Failsafe image from Unsplash if the local one is missing or fails to load
+  const fallbackHero = "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2070&auto=format&fit=crop";
+
   return (
     <div className="w-full">
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
-        {/* Background Image with Dark Overlay */}
+        {/* Background Image with Dark Gradient Overlay */}
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-gradient-to-b from-background/90 via-background/70 to-background z-10" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-black/90 z-10" />
           <img 
             src={heroBg} 
+            onError={(e) => {
+              (e.target as HTMLImageElement).src = fallbackHero;
+            }}
             alt="Luxury Hospitality Consulting" 
             className="w-full h-full object-cover object-center"
           />
         </div>
 
-        <div className="container mx-auto px-6 relative z-20 text-center">
+        <div className="container mx-auto px-6 relative z-20 flex justify-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
-            className="max-w-4xl mx-auto"
+            className="max-w-4xl w-full"
           >
-            <span className="text-primary font-semibold tracking-[0.2em] uppercase text-sm mb-6 block">
-              Visitor Care Consultancy
-            </span>
-            <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-medium text-white leading-tight mb-8">
-              Transforming <br />
-              <span className="text-gradient-gold italic">Hospitality</span> Businesses
-            </h1>
-            <p className="text-lg md:text-xl text-white/70 font-light max-w-2xl mx-auto mb-12 leading-relaxed">
-              Premium international consulting for hotels, restaurants, and food & beverage operations globally.
-            </p>
-            
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
-              <Link href="/contact" className="w-full sm:w-auto px-8 py-4 bg-primary text-primary-foreground rounded-full font-semibold tracking-wide hover:bg-yellow-500 transition-all hover:scale-105 hover:shadow-[0_0_20px_rgba(251,191,36,0.3)]">
-                Get Consultancy
-              </Link>
-              <Link href="/services" className="w-full sm:w-auto px-8 py-4 glass-panel text-white rounded-full font-semibold tracking-wide hover:bg-white/10 transition-all flex items-center justify-center gap-2 group">
-                Explore Services
-                <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-              </Link>
+            {/* Glass-style text card */}
+            <div className="glass-panel p-8 md:p-12 rounded-3xl border border-white/10 backdrop-blur-xl bg-black/20 text-center">
+              <span className="text-primary font-semibold tracking-[0.2em] uppercase text-sm mb-6 block">
+                Visitor Care Consultancy
+              </span>
+              <h1 className="text-5xl md:text-7xl lg:text-8xl font-serif font-medium text-white leading-tight mb-8">
+                Transforming <br />
+                <span className="text-gradient-gold italic">Hospitality</span> Businesses
+              </h1>
+              <p className="text-lg md:text-xl text-white/80 font-light max-w-2xl mx-auto mb-12 leading-relaxed">
+                Premium hospitality consulting, hotel operations expertise, and manpower solutions for a global excellence.
+              </p>
+              
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
+                <Link href="/services" className="w-full sm:w-auto px-10 py-4 bg-primary text-primary-foreground rounded-full font-semibold tracking-wide hover:bg-yellow-500 transition-all hover:scale-105 hover:shadow-[0_0_25px_rgba(251,191,36,0.4)]">
+                  Explore Services
+                </Link>
+                <Link href="/contact" className="w-full sm:w-auto px-10 py-4 glass-panel text-white border border-white/20 rounded-full font-semibold tracking-wide hover:bg-white/10 transition-all flex items-center justify-center gap-2 group">
+                  Contact Us
+                  <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                </Link>
+              </div>
             </div>
           </motion.div>
         </div>
