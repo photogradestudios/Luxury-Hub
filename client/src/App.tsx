@@ -11,6 +11,9 @@ import Projects from "@/pages/Projects";
 import Gallery from "@/pages/Gallery";
 import Contact from "@/pages/Contact";
 import Manpower from "@/pages/Manpower";
+import Hotel from "@/pages/Hotel";
+import Restaurant from "@/pages/Restaurant";
+import Achievements from "@/pages/Achievements";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -20,9 +23,12 @@ function Router() {
         <Route path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/services" component={Services} />
+        <Route path="/hotel" component={Hotel} />
+        <Route path="/restaurant" component={Restaurant} />
         <Route path="/manpower" component={Manpower} />
         <Route path="/projects" component={Projects} />
         <Route path="/gallery" component={Gallery} />
+        <Route path="/achievements" component={Achievements} />
         <Route path="/contact" component={Contact} />
         <Route component={NotFound} />
       </Switch>
