@@ -10,6 +10,7 @@ import Services from "@/pages/Services";
 import Projects from "@/pages/Projects";
 import Gallery from "@/pages/Gallery";
 import Contact from "@/pages/Contact";
+import Manpower from "@/pages/Manpower";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -19,6 +20,7 @@ function Router() {
         <Route path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/services" component={Services} />
+        <Route path="/manpower" component={Manpower} />
         <Route path="/projects" component={Projects} />
         <Route path="/gallery" component={Gallery} />
         <Route path="/contact" component={Contact} />

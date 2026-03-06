@@ -21,6 +21,7 @@ export function Navbar() {
     { name: "Home", path: "/" },
     { name: "About Us", path: "/about" },
     { name: "Services", path: "/services" },
+    { name: "Manpower", path: "/manpower" },
     { name: "Projects", path: "/projects" },
     { name: "Gallery", path: "/gallery" },
     { name: "Contact", path: "/contact" },
